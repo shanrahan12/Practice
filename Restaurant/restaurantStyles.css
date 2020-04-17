@@ -1,0 +1,68 @@
+/*
+Creator: Sarah Hanrahan
+Date created: 4/16/2020
+Date last modified: 
+*/
+
+header, footer{
+		background-color: #6B7A8F;
+		color:#fef9ff;
+		height: 100px;
+		text-align: center;
+		padding: auto;
+		font-family: Arial;
+			
+	}
+	
+h1 {
+	font-size:3.5em;
+	margin: auto 0;
+}	
+
+h3 {
+	text-align:right;
+	padding-right: 15px;
+}
+
+body {
+	font-family: Arial;
+	background-color: #f1f0ee;
+	
+}
+
+nav {
+	border-top: 3px solid #F7C331;
+	border-bottom: 3px solid #F7C331;
+	position: sticky;
+	}
+
+nav p {
+	font-family: Arial;
+	border: thin solid #395070;
+	text-align:center;
+	text-decoration: none;
+    display: block;
+	background-color: #395070;
+    color: #fef9ff;
+	padding: 8px;
+	width: 100px;
+	float:left;
+	font-size:1.1em;
+	margin:5px 5px 10px 5px;
+}
+
+nav a:hover {
+	font-weight:bold;	
+}
+
+nav a:active {
+	text-decoration: none;	
+}
+
+nav a:visited {
+	color: #F7C331;	
+}
+
+.clear-float {
+	clear:both;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<!-- This is the contact page for Sarah's Kitchen-->
+
+<!-- 
+	Author: Sarah Hanrhan 
+	Created: April 12 2020 
+	Modified: April 16 2020
+-->
+
+<html lang="en">
+
+	<head>
+	
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<title>Contact Us</title>
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body>
+		<header>
+			<h1>Sarah's Kitchen</h1>
+			<h3>NEW Location opening Fall 2020!</h3>
+		</header>
+		
+
+		<nav>
+			<div id="navbar">
+				<p class="btn badge-pill"><a href="index.html">Home</a></p>
+				<p class="btn badge-pill"><a href="menu.html">Menu</a></p>
+				<p class="btn badge-pill"><a href="contact-us.html">Contact Us</a></p>
+				<div class="clear-float"></div>
+			</div>
+		</nav>
+
+	<div class="container.float">	
+		<form action="contactinfo.html" method="POST">
+			Name: <input type="text" name="Name" /><br/><br/>
+			Email: <input type="text" name="Email" /><br/><br/>
+			Phone: <input type="text" name="Phone" /><br/><br/>
+			Reason for Inquiry: 
+				<select name="reason">
+					<option value="catering" default>Catering</option>
+					<option value="privateParty">Private Party</option>
+					<option value="feedbBack">Feedback</option>
+					<option value="other">Other</option>
+				</select><br/><br/>
+			Additonal Information: <textarea name="additionalInfo"></textarea><br/><br/>
+			Have you been to the restaurant?    
+				<input type="radio" name="been" value="no" checked/>No
+				<input type="radio" name="been" value="yes" />Yes
+				<br/><br/>
+			Best days to contact you: 
+				<input type="checkbox" name="days" value="m" />M
+				<input type="checkbox" name="days" value="t" />T
+				<input type="checkbox" name="days" value="w" />W
+				<input type="checkbox" name="days" value="th" />TH
+				<input type="checkbox" name="days" value="f" />F
+				<br/><br/>
+			<input type="submit" value="Send Request"/>
+			
+		</form>
+	</div>	
+		<footer>
+			
+			<p>1234 Main Street Jacksonville, Florida 32257</p>
+			<p>386-123-7788</p>
+			
+		</footer>
+		
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	
+	</body>
+</html>

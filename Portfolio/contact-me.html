@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Sarah Hanrahan's Contact</title>
+		<link href="syles.css" rel="stylesheet" type="text/css" />
+		<style>	
+		</style>
+	</head>
+	
+	<header>
+				<h1>Contact Me!</h1>
+	</header>
+	
+	<body>
+		<main>
+			
+			
+			<hr/>
+				<nav>
+					<p><a href="index.html">Home</a></p>
+					<div class="clear-float"></div>
+				</nav>
+			<hr/>
+			
+			<article id="information-request">
+				<p>
+					<h2>Information Request</h2>
+				</p>
+				
+				<form action="submit.html" method="POST">
+				
+				<label for="firstName">First Name:</label><br/>
+				<input type="text" id="firstName" name="firstName"><br/>
+				
+				<label for="lastName">Last Name:</label><br/>
+				<input type="text" id="lastName" name="lastName"><br/>
+				
+				<label for="phoneNumber">Phone Number:</label><br/>
+				<input type="text" id="phoneNumber" name="phoneNumber"><br/>
+				
+				<label for="bestTimeToCall">Best Time to Call:</label><br/>
+				<select id="bestTimeToCall" name="bestTimeToCall">
+					<option value="default">--Select One--</option>
+					<option value="morning">Morning (8AM to 12PM Eastern)</option>
+					<option value="afternoon">Afternoon (12PM to 5PM Eastern)</option>
+					<option value="evening">Evening (5PM to 8PM Eastern)</option>
+				</select>
+				
+				<br/>
+				<br/>
+				
+				<fieldset>
+					<legend>I am interested in (check all that apply)</legend>
+					<input type="checkbox" id="frontEnd" name="interested" value="frontEnd">
+					<label for="frontEnd">Front End</label><br/>
+					<input type="checkbox" id="backEnd" name="interested" value="backEnd">
+					<label for="backEnd">Back End Web Development</label><br/>
+					<input type="checkbox" id="dataBase" name="interested" value="dataBase">
+					<label for="dataBase">Database Design</label><br/>
+				</fieldset>	
+				
+				<br/>
+				
+				<fieldset>
+					<legend>I have filled in the client questionaire form:</legend>
+					<input type="radio" id="yes" name="questionaire" value="yes" checked>
+					<label for="yes">Yes</label><br/>
+					<input type="radio" id="no" name="questionaire" value="no">
+					<label for="no">No</label><br/>
+				</fieldset>
+				
+				<br/>
+				
+				<label for="additional">Additional Information:</label><br/>
+				<textarea id="additional" name="additional"></textarea><br/>
+				
+				<input type="Submit" name="submit" value="Submit">
+				
+			
+			</article>	
+			
+			<hr>
+			
+		</main>
+	</body>
+	
+	<footer>
+		<p>&copy; 2020 Sarah Hanrahan. All rights reserved.</p>
+	</footer>
+</html>
